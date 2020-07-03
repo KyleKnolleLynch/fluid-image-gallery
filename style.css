@@ -102,3 +102,24 @@ span {
 .modal span {
   bottom: 2.5vh;
 }
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    margin: 1rem 0;
+    gap: 1rem;
+  }
+  .img-container {
+    width: 80%;
+    margin: 0 1rem;
+  }
+
+  .modal p {
+    bottom: 6vh;
+    font-size: 1.5rem;
+  }
+
+  .modal span {
+    bottom: 3.5vh;
+    font-size: 0.8rem;
+  }
+}
