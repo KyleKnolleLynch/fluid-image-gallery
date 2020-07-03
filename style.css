@@ -108,10 +108,6 @@ span {
     margin: 1rem 0;
     gap: 1rem;
   }
-  .img-container {
-    width: 80%;
-    margin: 0 1rem;
-  }
 
   .modal p {
     bottom: 6vh;
