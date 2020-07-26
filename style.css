@@ -7,6 +7,7 @@
 html,
 body {
   font-size: 10px;
+  background: #dfdfdf;
 }
 
 img {
@@ -26,11 +27,12 @@ a:hover {
 .gallery {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(44rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 2.4rem;
 }
 
 .img-container {
+  max-width: 100vw;
   position: relative;
   overflow: hidden;
 }
@@ -109,13 +111,17 @@ span {
     gap: 1rem;
   }
 
+  .img-large {
+    height: 65vh;
+  }
+
   .modal p {
-    bottom: 6vh;
+    bottom: 8vh;
     font-size: 1.5rem;
   }
 
   .modal span {
-    bottom: 3.5vh;
+    bottom: 5.5vh;
     font-size: 0.8rem;
   }
 }
